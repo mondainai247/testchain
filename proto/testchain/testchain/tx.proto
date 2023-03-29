@@ -1,0 +1,7 @@
+syntax = "proto3";
+package testchain.testchain;
+
+option go_package = "testchain/x/testchain/types";
+
+// Msg defines the Msg service.
+service Msg {}
