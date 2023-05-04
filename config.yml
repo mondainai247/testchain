@@ -16,3 +16,19 @@ faucet:
 validators:
 - name: alice
   bonded: 7777777test
+genesis:
+  app_state:
+    staking:
+      params:
+        bond_denom: "test"
+    gov:
+      deposit_params:
+        min_deposit:
+          - amount: "10000000"
+            denom: "test"
+    crisis:
+      constant_fee:
+        denom: "test"
+    mint:
+      params:
+        mint_denom: "test"
